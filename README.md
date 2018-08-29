@@ -1,7 +1,7 @@
 # get_sitemap
-######一个自动爬取sitemap并保存到本地的脚本，基于python2.7
+一个自动爬取sitemap并保存到本地的脚本，基于python2.7
 
-##说明
+说明
 ```
 站长在管理站点的时候，为了方便爬虫爬取网页，可通过设置站点的sitemap并提交给站长平台，如百度站长平台、360站长平台。
 
@@ -9,7 +9,7 @@
 
 站点到该平台，获取到sitemap文件
 ```
-##使用方式
+使用方式
 ```
 #git clone https://github.com/tm2018/get_sitemap.git
 修改git_sitemap.py的配置
