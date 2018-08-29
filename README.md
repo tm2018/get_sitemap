@@ -11,8 +11,14 @@
 ```
 ##使用方式
 ```
-#git clone 
-#mkdir /var/www/html/sitemap
-#python /var/www/html/sitemap/get_sitemap.py
+#git clone https://github.com/tm2018/get_sitemap.git
+修改git_sitemap.py的配置
+...
+my_host = '域名/ip地址'
+type = 'xml/html/txt'  #选择一种保存格式
+dir = '/var/www/html/sitemap' #sitemap的下载路径，请确保路径存在
+...
+
+#python get_sitemap.py
 ```
 
